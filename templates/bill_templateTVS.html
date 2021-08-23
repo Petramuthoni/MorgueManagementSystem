@@ -1,0 +1,11 @@
+<!-- Edit this file to change the layout of each record in the table view -->
+<!-- To disable clicking of a field, remove the  and  formatters around it-->
+
+<!-- If you wish to hide the table view header that contains the column titles, -->
+<!-- add the following to the bill_init() hook (in hooks/bill.php file) -->
+<!--     $options->ShowTableHeader = 0;     -->
+
+		<td id="bill-deceased-<%%VALUE(id)%%>" class="bill-deceased"><%%VALUE(deceased)%%></td>
+		<td id="bill-total-<%%VALUE(id)%%>" class="bill-total"><%%VALUE(total)%%></td>
+		<td id="bill-paid_amount-<%%VALUE(id)%%>" class="bill-paid_amount text-right"><%%VALUE(paid_amount)%%></td>
+		<td id="bill-balance-<%%VALUE(id)%%>" class="bill-balance"><%%VALUE(balance)%%></td>

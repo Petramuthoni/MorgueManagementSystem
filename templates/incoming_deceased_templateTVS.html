@@ -1,0 +1,16 @@
+<!-- Edit this file to change the layout of each record in the table view -->
+<!-- To disable clicking of a field, remove the  and  formatters around it-->
+
+<!-- If you wish to hide the table view header that contains the column titles, -->
+<!-- add the following to the incoming_deceased_init() hook (in hooks/incoming_deceased.php file) -->
+<!--     $options->ShowTableHeader = 0;     -->
+
+		<td id="incoming_deceased-fullname-<%%VALUE(id)%%>" class="incoming_deceased-fullname"><%%VALUE(fullname)%%></td>
+		<td id="incoming_deceased-gender-<%%VALUE(id)%%>" class="incoming_deceased-gender"><%%VALUE(gender)%%></td>
+		<td id="incoming_deceased-tag_number-<%%VALUE(id)%%>" class="incoming_deceased-tag_number"><%%VALUE(tag_number)%%></td>
+		<td id="incoming_deceased-serial_number-<%%VALUE(id)%%>" class="incoming_deceased-serial_number"><%%VALUE(serial_number)%%></td>
+		<td id="incoming_deceased-relative_name-<%%VALUE(id)%%>" class="incoming_deceased-relative_name"><%%VALUE(relative_name)%%></td>
+		<td id="incoming_deceased-relative_number-<%%VALUE(id)%%>" class="incoming_deceased-relative_number"><%%VALUE(relative_number)%%></td>
+		<td id="incoming_deceased-room-<%%VALUE(id)%%>" class="incoming_deceased-room"><%%VALUE(room)%%></td>
+		<td id="incoming_deceased-bed-<%%VALUE(id)%%>" class="incoming_deceased-bed"><%%VALUE(bed)%%></td>
+		<td id="incoming_deceased-date-<%%VALUE(id)%%>" class="incoming_deceased-date"><%%VALUE(date)%%></td>

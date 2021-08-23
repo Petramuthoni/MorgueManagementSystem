@@ -1,0 +1,15 @@
+<!-- Edit this file to change the layout of each record in the table view -->
+<!-- To disable clicking of a field, remove the  and  formatters around it-->
+
+<!-- If you wish to hide the table view header that contains the column titles, -->
+<!-- add the following to the outgoing_deceased_init() hook (in hooks/outgoing_deceased.php file) -->
+<!--     $options->ShowTableHeader = 0;     -->
+
+		<td id="outgoing_deceased-fullname-<%%VALUE(id)%%>" class="outgoing_deceased-fullname"><%%VALUE(fullname)%%></td>
+		<td id="outgoing_deceased-gender-<%%VALUE(id)%%>" class="outgoing_deceased-gender"><%%VALUE(gender)%%></td>
+		<td id="outgoing_deceased-tag_number-<%%VALUE(id)%%>" class="outgoing_deceased-tag_number"><%%VALUE(tag_number)%%></td>
+		<td id="outgoing_deceased-serial_number-<%%VALUE(id)%%>" class="outgoing_deceased-serial_number"><%%VALUE(serial_number)%%></td>
+		<td id="outgoing_deceased-relative_name-<%%VALUE(id)%%>" class="outgoing_deceased-relative_name"><%%VALUE(relative_name)%%></td>
+		<td id="outgoing_deceased-relative_phone_number-<%%VALUE(id)%%>" class="outgoing_deceased-relative_phone_number"><%%VALUE(relative_phone_number)%%></td>
+		<td id="outgoing_deceased-date-<%%VALUE(id)%%>" class="outgoing_deceased-date"><%%VALUE(date)%%></td>
+		<td id="outgoing_deceased-car_out_number-<%%VALUE(id)%%>" class="outgoing_deceased-car_out_number"><%%VALUE(car_out_number)%%></td>
